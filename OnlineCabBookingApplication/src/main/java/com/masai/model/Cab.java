@@ -33,10 +33,10 @@ public class Cab {
 	public Cab() {
 		super();
 	}
+	
 	@Override
 	public String toString() {
 		return "Cab [cabId=" + cabId + ", carType=" + carType + ", perKmRate=" + perKmRate + "]";
 	}
-	
 
 }
