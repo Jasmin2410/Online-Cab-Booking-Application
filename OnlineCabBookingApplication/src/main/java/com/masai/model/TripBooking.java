@@ -3,6 +3,7 @@ package com.masai.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
@@ -11,6 +12,7 @@ import java.time.LocalDateTime;
 @Entity
 @NoArgsConstructor
 @Setter
+@Getter
 public class TripBooking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
