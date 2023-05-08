@@ -3,8 +3,8 @@ package com.masai.service;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
-import org.apache.el.stream.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +14,9 @@ import com.masai.model.Customer;
 import com.masai.model.Driver;
 import com.masai.model.TripBooking;
 import com.masai.repository.AdminDao;
+import com.masai.repository.CustomerRepository;
+import com.masai.repository.DriverRepository;
+import com.masai.repository.TripBookingRepo;
 
 @Service
 public class AdminServiceImpl implements AdminService {
@@ -102,7 +105,7 @@ public class AdminServiceImpl implements AdminService {
 	@Override
 	public List<TripBooking> getTripsDatewiseAndCustomer(Integer customerId,LocalDateTime date) throws AdminException {
 		List<TripBooking> list = CustRepo.findById(customerId).get().getTripBookings();
-		List<TripBooking> ls = new ArrayList();
+		List<TripBooking> ls = new ArrayList<TripBooking>();
 		for(TripBooking l:list) {
 			if(date.equals(l.getFromDateTime())) {
 				ls.add(l);

@@ -2,14 +2,22 @@ package com.masai.service;
 
 import java.util.List;
 
-import com.masai.exception.DriverException;
+import com.masai.exception.CabException;
+
 import com.masai.model.Cab;
 
 public interface CabService {
+	
 
-		public Cab updateCab(Cab cab) throws DriverException;
-		
-		public List<Cab> viewCabsOfType(String carType) throws DriverException;
-		
-		public int countCabsOfType(String carType) throws DriverException;
+	public Cab insertCab(Cab cab) throws CabException;
+
+	public Cab updateCab(Cab cab) throws CabException;
+
+	public Cab deleteCab(int cabId) throws CabException;
+
+	public List<Cab> viewCabsOfType(String carType) throws CabException;
+
+	public int countCabsOfType(String carType);
+
+	
 }
