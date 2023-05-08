@@ -14,6 +14,7 @@ import com.masai.model.Customer;
 import com.masai.model.Driver;
 import com.masai.model.TripBooking;
 import com.masai.repository.AdminDao;
+import com.masai.repository.CustomerRepository;
 
 @Service
 public class AdminServiceImpl implements AdminService {

@@ -76,3 +76,4 @@ public class AdminController {
 		List<TripBooking> list = adminService.getTripsDatewiseAndCustomer(customerId, date1);
 		return new ResponseEntity<List<TripBooking>>(list,HttpStatus.OK) ;
 	}
+}
