@@ -98,20 +98,20 @@ public class DriverController {
 	}
 
 	
-	@GetMapping("/viewCabsOfType/carType")
-	public ResponseEntity<List<Cab>> viewCabsOfType(@PathVariable String carType){
+	@GetMapping("/viewCabsOfType/{carType}")
+	public ResponseEntity<List<Cab>> viewCabsOfType(@PathVariable("carType") String carType){
 		
 		List<Cab> cabs = cabServices.viewCabsOfType(carType);
 		
 		return new ResponseEntity<>(cabs, HttpStatus.OK);
 	}
 	
-//	@GetMapping("/countCabsOfType/carType")
-//	public Integer countCabsOfType(@PathVariable String carType){
-//		
-//		int count = cabServices.countCabsOfType(carType);
-//		
-//		return count;
-//	}
+	@GetMapping("/countCabsOfType/{carType}")
+	public Integer countCabsOfType(@PathVariable("carType") String carType){
+		
+		int count = cabServices.countCabsOfType(carType);
+		
+		return count;
+	}
 	
 }
