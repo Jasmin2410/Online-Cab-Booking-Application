@@ -128,9 +128,9 @@ Don't forget to give the project a star ! Thank You !
 
 ## 🔗 Contact Us
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-jasmin-586518204/)
-Jasmin Shaik
+Jasmin Shaik/n
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-parate-890579129/)
-Ashish Parate
+Ashish Parate/n
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saksham-verma-0094b3111/)
 Saksham Verma
 
