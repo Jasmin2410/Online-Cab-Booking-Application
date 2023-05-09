@@ -127,12 +127,19 @@ If you have a suggestion that would make this application better, Please fork th
 Don't forget to give the project a star ! Thank You !
 
 ## 🔗 Contact Us
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-jasmin-586518204/)Jasmin Shaik
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaik-jasmin-586518204/)
+Jasmin Shaik
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ashish-parate-890579129/)
+Ashish Parate
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saksham-verma-0094b3111/)
+Saksham Verma
+
 
 ## Authors
 
 - [Jasmin Shaik](https://github.com/Jasmin2410)
-- [
+- [Ashish Parate](https://github.com/ashishparate66)
+- [Saksham Verma](https://github.com/sakshamverma72)
 ## Acknowledgements
 
 - [Masai School](https://www.masaischool.com/)
