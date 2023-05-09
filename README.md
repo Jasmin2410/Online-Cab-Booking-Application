@@ -1,6 +1,6 @@
 # mellow-sofa-3715
 
-![logo](https://tse4.mm.bing.net/th?id=OIP.QzlvbcZlU_ng8U_SvQ46NwHaEo&pid=Api&P=0)
+![logo](https://images5.alphacoders.com/958/958461.jpg)
 
 # Online Cab Booking Application
  
